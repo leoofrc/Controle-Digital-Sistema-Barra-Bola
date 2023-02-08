@@ -1,2 +1,4 @@
-# Controle-Digital-Sistema-Barra-Bola
-Controle digital de um sistema barra bola
+# **Controle digital de um sistema barra bola**
+
+Projeto de um sistema barra bola com um controlador de espaço de estados implementado. A ferramenta utilizada para a modelagem da planta, bem como os cálculos para o projeto do controlador, foi o Matlab. Foi feito também um controlador PID porem este foi testado apenas por simulaçõs, utilizando o Simulink do próprio MatLab.
+<br/><br/>O projeto já estava funcional apenas com o controlador de espaço de estados utilizando observador e preditor, porém por motivos acadêmicos foi implementado também via código um filtro passa baixa além da introdução de perturbação constante, o que gerou algumas alterações nos valores de K, Kp e Kc, que ja foram alterados diretamente via código. O microcontrolador utilizado foi um Arduíno UNO.
